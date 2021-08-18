@@ -1,0 +1,69 @@
+body {
+    background-color: #3DBBC2;
+    margin: 1.5rem;
+}
+.container {
+    width: 94%;
+	margin: 2rem auto;
+}
+
+.section__tiragem  {
+    background-color: #DFE9F2;
+    border-radius: 10px;
+}
+
+.section__tiragem .container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    
+}
+
+.section__carta-unica {
+    background-color: #DFE9F2;
+    border-radius: 10px;
+}
+
+.section__carta-unica .container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+}
+
+.lista__carta-unica {
+    list-style:none;
+}
+
+.nome__carta {
+    text-align: center;
+}
+
+.texto__carta{
+    text-align: center;
+    font-size: 1rem;
+}
+
+.interpretacao {
+    text-align: center;
+}
+
+.botao-tira-carta {
+    display: block;
+    background-color: #22825C;
+    border-radius: 7px;
+    width: 50%;
+    margin: 1rem;
+    max-width: 20rem;
+    padding: 1.125rem;
+    box-sizing: border-box;
+    color: #f5fffb;
+    font-size: 2rem;
+    align-self: center;
+    text-align: center;
+}
+
+.paragrafo__tiragem {
+    font-size: 1.5rem;
+}
